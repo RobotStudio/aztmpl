@@ -1,0 +1,13 @@
+pip-tools
+IPython
+pep8
+pytest
+pylint
+pytest-cov
+pytest-pep8
+pytest-pylint
+hypothesis
+sphinx
+sphinxcontrib-napoleon
+tox
+autopep8
