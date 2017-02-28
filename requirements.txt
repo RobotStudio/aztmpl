@@ -4,5 +4,21 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+azure-common==1.1.4       # via azure-mgmt-common, azure-servicebus, azure-servicemanagement-legacy, azure-storage
+azure-mgmt-common==0.20.0  # via azure-mgmt-compute, azure-mgmt-network, azure-mgmt-resource, azure-mgmt-storage
+azure-mgmt-compute==0.20.1  # via azure-mgmt
+azure-mgmt-network==0.20.1  # via azure-mgmt
+azure-mgmt-nspkg==1.0.0   # via azure-mgmt-common
+azure-mgmt-resource==0.20.1  # via azure-mgmt
+azure-mgmt-storage==0.20.0  # via azure-mgmt
+azure-mgmt==0.20.2        # via azure
+azure-nspkg==1.0.0        # via azure-common, azure-mgmt-nspkg, azure-storage
+azure-servicebus==0.20.1  # via azure
+azure-servicemanagement-legacy==0.20.2  # via azure
+azure-storage==0.20.3     # via azure
+azure==1.0.3
 py==1.4.31                # via pytest
 pytest==3.0.4
+python-dateutil==2.6.0    # via azure-storage
+requests==2.13.0          # via azure-servicebus, azure-servicemanagement-legacy, azure-storage
+six==1.10.0               # via python-dateutil

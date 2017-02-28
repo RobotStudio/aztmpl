@@ -25,18 +25,18 @@ except ImportError:
 
 
 setup(
-    name='sample',
+    name='az',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.2.0',
 
-    description='A sample Python project',
+    description='A azure Python project',
     long_description=read_md('README.md'),
 
     # The project's main homepage.
-    url='https://nexthealth.visualstudio.com/NextHealthProducts/_git/sampleproject',
+    url='https://nexthealth.visualstudio.com/NextHealthProducts/_git/az',
 
     # Author details
     author='The Python Packaging Authority',
@@ -72,7 +72,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='sample setuptools development',
+    keywords='azure setuptools development',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -104,7 +104,7 @@ setup(
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
     package_data={
-        'sample': ['README.md'],
+        'az': ['README.md'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
@@ -118,7 +118,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'sample=sample:main',
+            'az=az:main',
         ],
     },
 )
