@@ -1,4 +1,4 @@
-Copyright (c) 2016-2017 NextHealth Technologies Inc - All Rights Reserved
+Copyright (c) 2016-2017 Robot Studio LLC - All Rights Reserved
 
 Unauthorized copying of this file, via any medium is strictly prohibited.
 
