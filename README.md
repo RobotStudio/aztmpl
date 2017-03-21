@@ -44,11 +44,11 @@ If you wish to automatically manage adherance to the PEP8 standard, use the modu
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://nexthealth.visualstudio.com/NextHealthProducts/_git/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/RobotStudio/aztmpl/tags).
 
 ## Authors
 
-* **Bobby Larson** - *Initial Project Skeleton* - [karma0](https://github.com/karma0)
+* **Bobby Larson** - *Initialized Project* - [karma0](https://github.com/karma0)
 
 See also the list of [contributors](CONTRIBUTORS.md) who participated in this project.
 

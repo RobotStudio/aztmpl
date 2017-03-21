@@ -2,7 +2,6 @@
 
 See:
 https://packaging.python.org/en/latest/distributing.html
-https://nexthealth.visualstudio.com/NextHealthProducts/_git/ProjectSkeletons
 """
 
 # Always prefer setuptools over distutils
@@ -25,18 +24,18 @@ except ImportError:
 
 
 setup(
-    name='az',
+    name='aztmpl',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.2.0',
 
-    description='A azure Python project',
+    description='A Azure ARM Template Python project',
     long_description=read_md('README.md'),
 
     # The project's main homepage.
-    url='https://nexthealth.visualstudio.com/NextHealthProducts/_git/az',
+    url='https://github.com/RobotStudio/aztmpl',
 
     # Author details
     author='The Python Packaging Authority',
@@ -67,7 +66,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='azure setuptools development',
+    keywords='azure arm template setuptools development',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -113,7 +112,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'az=az:main',
+            'aztmpl=aztmpl:main',
         ],
     },
 )
