@@ -1,5 +1,6 @@
 from azure.common.credentials import UserPassCredentials
 from azure.mgmt.resource import ResourceManagementClient
+
 import os
 
 
