@@ -3,7 +3,7 @@ Any files named *_test.py or test_*.py recursively found will be executed
 
 Access your app like this:
 ```python
-from .context import sample
+from .context import aztmpl
 ```
 """
 

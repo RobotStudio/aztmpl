@@ -16,7 +16,7 @@ import sys, os
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-sys.path.insert(0, os.path.abspath('../sample'))
+sys.path.insert(0, os.path.abspath('../aztmpl'))
 
 # -- General configuration -----------------------------------------------------
 
@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'sample'
+project = u'aztmpl'
 copyright = u'2017, NextHealth Technologies Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -173,7 +173,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'sampledoc'
+htmlhelp_basename = 'aztmpldoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -192,7 +192,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'sample.tex', u'sample Documentation',
+  ('index', 'aztmpl.tex', u'aztmpl Documentation',
    u'Bobby Larson', 'manual'),
 ]
 
@@ -222,7 +222,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sample', u'sample Documentation',
+    ('index', 'aztmpl', u'aztmpl Documentation',
      [u'Bobby Larson'], 1)
 ]
 
@@ -236,8 +236,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'sample', u'sample Documentation',
-   u'Bobby Larson', 'sample', 'One line description of project.',
+  ('index', 'aztmpl', u'aztmpl Documentation',
+   u'Bobby Larson', 'aztmpl', 'Azure Resource Manager Template Generator',
    'Miscellaneous'),
 ]
 

@@ -37,7 +37,7 @@ To contribute to this project, go ahead and clone it and issue a pull request.
 Please conform to [PEP-8](https://www.python.org/dev/peps/pep-0008/) standards for all developm
 ent.
 
-The `pep8` and `autopep8` modules are a part of the `dev-requirements`, and has been added to the `Makefile`.  Please edit for your project, and change `sample` to the module for your project.  Once this is completed, you can run `make pep8` for statistics, or `make pep8-verbose` for a detailed breakout of violations.
+The `pep8` and `autopep8` modules are a part of the `dev-requirements`, and has been added to the `Makefile`.  You can run `make pep8` for statistics, or `make pep8-verbose` for a detailed breakout of violations.
 
 If you wish to automatically manage adherance to the PEP8 standard, use the module `autopep8`.  You can learn more about it [here](https://pypi.python.org/pypi/autopep8).  An `autopep8` action has been included in the `Makefile` for a sane default use as needed.
 

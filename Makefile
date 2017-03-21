@@ -9,16 +9,16 @@ test:
 	tox
 
 coverage:
-	pytest --cov=sample tests
+	pytest --cov=aztmpl tests
 
 docs:
 	$(MAKE) -C $(DOC_DIR) html
 
 pep8-verbose:
-	pep8 --show-source --show-pep8 sample
+	pep8 --show-source --show-pep8 aztmpl
 
 pep8:
-	pep8 --statistics -qq sample
+	pep8 --statistics -qq aztmpl
 
 autopep8:
 	autopep8 -r -aa .

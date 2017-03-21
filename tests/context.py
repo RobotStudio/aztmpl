@@ -3,7 +3,7 @@ Reference this from your tests to include the application.
 
 Can be referenced like so:
 ```python
-from .context import sample
+from .context import aztmpl
 ```
 """
 import os
@@ -13,4 +13,4 @@ import sys
 sys.path.insert(0, os.path.abspath('..'))
 
 #pylint: disable=unused-import
-import az
+import aztmpl
