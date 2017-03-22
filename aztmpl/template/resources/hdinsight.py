@@ -3,7 +3,6 @@ from az.template.models import Resource
 
 class HDIClusterRes(Resource):
     required_parameters = [
-        "location",
         "clusterType",
         "clusterName",
         "clusterUserName",
@@ -25,7 +24,7 @@ class HDIClusterRes(Resource):
     ]
 
     type = "Microsoft.HDInsight/clusters"
-    location = "[parameters('location')]"
+    location = "[resourceGroup().location]"
     apiVersion = "[variables('previewApiVersion')]"
 
     dependsOn = []
