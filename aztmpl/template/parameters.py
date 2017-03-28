@@ -1,4 +1,4 @@
-from az.template.models import Parameter
+from aztmpl.template.models import Parameter
 
 
 class LocationParam(Parameter):

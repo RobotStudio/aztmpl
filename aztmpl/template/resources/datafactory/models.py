@@ -1,4 +1,4 @@
-from az.template.models import Serializable
+from aztmpl.template.models import Serializable
 
 import json
 

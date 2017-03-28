@@ -12,6 +12,8 @@ class Parameter(Serializable):
     >>> p.serialize(p)['asdf']['value']
     'fdsa'
     """
+    model_type = "parameter"
+
     def __init__(self, name=None, param_type=None, metadata=None,
                 value=None, default_value=None, allowed_values=None):
         self.name = name if name else self.name
@@ -61,6 +63,8 @@ class Variable(Serializable):
     >>> v.to_json()
     '{"asdf": "fdsa"}'
     """
+    model_type = "variable"
+
     def __init__(self, name=None, value=None):
         self.name = name if name else self.name
 
@@ -86,6 +90,8 @@ class Resource(Serializable):
     >>> r.serialize(r)['name']
     'asdf'
     """
+    model_type = "resource"
+
     def __init__(self, name=None, type=None, location=None, api_version=None, properties=None):
         self.name = name if name else self.name
         self.type = type if type else self.type

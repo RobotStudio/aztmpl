@@ -1,4 +1,4 @@
-from az.template.models import Variable
+from aztmpl.template.models import Variable
 
 
 class ApiVersion(Variable):

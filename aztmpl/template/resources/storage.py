@@ -1,4 +1,4 @@
-from az.template.models import Resource
+from aztmpl.template.models import Resource
 
 
 class StorageAccountRes(Resource):
